@@ -1,4 +1,5 @@
-import { generateStreamToken } from "../config/inngest.js";
+import { generateStreamToken } from "../config/stream.js";
+
 
 export const getStreamToken = (req, res) => {
     try {
